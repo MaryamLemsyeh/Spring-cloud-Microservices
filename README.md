@@ -58,10 +58,9 @@ on créer une classe de configuration, une méthode qui retourne un bean (objet 
 On a besoin d'un rapidAPI countries c'est une service public connaissant l'adresse on peut l'utiliser, il est un service externe qui ne s'enregistre pas sur discovery.
 on utilise le service d'enregistrement, on demande au service de s'enregistrer et on essaye de faire la gestion de maniere dynamique mais en exploitant le log balancer.
 lorsqu'on utilise la configuration statique y'a pas de log balancer, si on a plusieurs instance du même microservice on peut pas l'utiliser.
-![gateway products](https://user-images.githubusercontent.com/105390951/206061287-fda189d4-c4c2-4a25-8522-49de63a78fac.PNG)
-![gateway customers](https://user-images.githubusercontent.com/105390951/206061289-d83d2596-5ee3-4fb1-aa97-9d5eda7e58e6.PNG)
-![customers gateway java](https://user-images.githubusercontent.com/105390951/206061280-ffbcb390-443f-4690-bca1-e23d184c7aed.PNG)
-![gateway prod java](https://user-images.githubusercontent.com/105390951/206061284-789679f2-f3f6-466c-a85c-79f6f7d48ea2.PNG)
+
+![prod](https://user-images.githubusercontent.com/105390951/208405806-b95e53ab-0156-4fab-8b4b-e651f1ec3435.PNG)
+![cust](https://user-images.githubusercontent.com/105390951/208405811-eac92f19-4c04-4ec0-8eab-e774b1dfa350.PNG)
 ![enable eureka all](https://user-images.githubusercontent.com/105390951/206061277-b518c321-e3b9-4e3f-a1ac-5ae20aa86ebc.PNG)
 
 ## Méthode 3 : 
