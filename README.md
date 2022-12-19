@@ -49,14 +49,13 @@ Créer le gatway qui va essayer de dispatcher les requettes vers les bons micros
 pour configurer le gateway on peut utiliser un fichier de format .yml
 ![actuator 2](https://user-images.githubusercontent.com/105390951/206061225-90217f05-acfc-42f3-a0e2-61465400336b.PNG)
 ![beansactuator1](https://user-images.githubusercontent.com/105390951/206061219-63bd5439-a761-4512-aa20-d7690c86440a.PNG)
-![CUSTOMER](https://user-images.githubusercontent.com/105390951/206061217-0f91bba4-8501-4f05-95d3-4fb8f32773b1.PNG)
-![customers](https://user-images.githubusercontent.com/105390951/206061214-51b5166c-4505-4b32-97b7-6e11165b99fd.PNG)
-![products 1](https://user-images.githubusercontent.com/105390951/206061212-27af264b-1fe0-47ea-b763-f9b5858d570e.PNG)
+![product bdd](https://user-images.githubusercontent.com/105390951/208404878-85ce1a57-9fd4-425b-a469-b3ad3b1a6c25.PNG)
+![bdd console](https://user-images.githubusercontent.com/105390951/208404876-94e0ba19-d746-4819-9fbc-b7b546a522df.PNG)
 
 ## Méthode 2 : 
 on peut utiliser une configuration java, 
 on créer une classe de configuration, une méthode qui retourne un bean (objet route locator) pour configurer les routes, ila  besoin d'un objet en parametres qui s'appelle route locator builder, 
-On a BEOSIN d'un rapidAPI countries c'est une service public connaissant l'adresse on peut l'utiliser, il est un service externe qui ne s'enregistre pas sur discovery.
+On a besoin d'un rapidAPI countries c'est une service public connaissant l'adresse on peut l'utiliser, il est un service externe qui ne s'enregistre pas sur discovery.
 on utilise le service d'enregistrement, on demande au service de s'enregistrer et on essaye de faire la gestion de maniere dynamique mais en exploitant le log balancer.
 lorsqu'on utilise la configuration statique y'a pas de log balancer, si on a plusieurs instance du même microservice on peut pas l'utiliser.
 ![gateway products](https://user-images.githubusercontent.com/105390951/206061287-fda189d4-c4c2-4a25-8522-49de63a78fac.PNG)
