@@ -75,8 +75,9 @@ dans gateway on modifie la configuration , au lieu de localhost, on utilise que 
 Ajouter billing-service :
 Créer class client sous billing-service, quand je consulte un customer, openfile deserialize, prend les données JSON et les stock dans objet. faut garder les mêmes nom sinon on ajoute des annotations JACKSON pour faire la correspondance entre les 
 avoir le detail sur les produits et clients, on utilise OpenFeign qui permet de communiquer avec les microservices via rest.
-![customer1](https://user-images.githubusercontent.com/105390951/206061536-d34c5dc3-8784-4828-924c-8685ea700c71.PNG)
-![product1](https://user-images.githubusercontent.com/105390951/206061541-c4342635-9604-420f-af98-a80eef3f0603.PNG)
+
+![prod1](https://user-images.githubusercontent.com/105390951/208406386-384093d9-764e-49bc-9b88-8dd72ee62a61.PNG)
+![cus1](https://user-images.githubusercontent.com/105390951/208406388-74bd657a-eece-450e-80e5-941d993ba7c2.PNG)
 
 
  Réalisé par : Lemsyeh Maryam 
