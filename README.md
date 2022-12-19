@@ -67,10 +67,10 @@ lorsqu'on utilise la configuration statique y'a pas de log balancer, si on a plu
 on créer eureka server, pour activer eureka server il faut utiliser l'annotation EnableEurekaServer, on démarre.
 on active spring.cloud.discovery.enabled sur true, on trouve 3 microservices enregistrés, customer-service, product-service et gateway-service.
 dans gateway on modifie la configuration , au lieu de localhost, on utilise que le nom du microservice , lb = log balancer.
-![products lb gateway](https://user-images.githubusercontent.com/105390951/206061484-3c307aae-9f2f-469c-b9fc-70c85caf90b9.PNG)
-![customers gateway lb](https://user-images.githubusercontent.com/105390951/206061496-f8dd13ef-347d-4089-8098-349dcd694c56.PNG)
-![customers url discovery](https://user-images.githubusercontent.com/105390951/206061502-ae019372-0ddf-4b80-80df-5933e3e49848.PNG)
-![discovery products url](https://user-images.githubusercontent.com/105390951/206061504-4c03e830-4f10-42bb-a44f-d2c4fdd4d1a4.PNG)
+![eureka](https://user-images.githubusercontent.com/105390951/208406676-f8616643-c35d-4f19-b420-a9a80c524a3d.PNG)
+![customers](https://user-images.githubusercontent.com/105390951/208406831-1cb172bb-d02b-4647-87fc-3b53d2af321d.PNG)
+![products](https://user-images.githubusercontent.com/105390951/208406840-3787df07-1a96-4387-908e-f182e80b4d5e.PNG)
+
 
 Ajouter billing-service :
 Créer class client sous billing-service, quand je consulte un customer, openfile deserialize, prend les données JSON et les stock dans objet. faut garder les mêmes nom sinon on ajoute des annotations JACKSON pour faire la correspondance entre les 
